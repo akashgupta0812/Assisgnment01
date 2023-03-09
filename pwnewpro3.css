@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("./logo\ 2project3pw13022023.png");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+/* body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/logo\ 2project3pw13022023.png");
+    /* background-image: url(logo\ 2project3pw13022023.png); */
+    /* background-repeat: no-repeat; */
+    /* height: 100%;
+    width: 100%;
+    background-size:cover;
+    background-attachment: fixed; */
+    /* height: 1vh; */
+    /* width: 1vw; */
+/* }  */
+nav{
+    /* border: 1px solid black; */
+    display: flex;
+align-items: center;
+justify-content: space-between;
+/* gap: 300px; */
+}
+ .head {
+    /* border: 2px solid blue; */
+    margin-top: 15px;
+    margin-left: 30px;
+}
+li{
+    list-style: none;
+}
+ul{
+display: flex;
+    /* border: 3px solid yellow; */
+    align-items: center;
+    gap:45px;
+    margin-top: 25px;
+    color: rgb(243, 243, 72);
+    /* font-weight: 600; */
+}
+ul li:hover{
+    font-weight: 900;
+    cursor: pointer;
+    text-decoration: underline;
+}
+button{
+    /* border: 3px solid red; */
+    margin-right: 30px;
+    padding: 6px 20px;
+    color: white;
+    margin-top: 25px;
+    background-color: rgb(248, 66, 96);
+   
+}
+button:hover{
+    background-color: rgb(226, 210, 210);
+}
+.left h1{
+    /* border: 2px solid red; */
+    /* margin: 0px 250px;
+     */
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+     /* margin: auto; */
+}
+.btnmain button
+{
+    margin-left: 550px;
+    padding: 10px 20px;
+    /* padding: 20px; */
+    text-align: center;
+    /* text-indent: 500px; */
+    /* border: 5px solid red; */
+}
+h1{
+    text-align: center;
+    /* border: 1px solid yellow; */
+    padding: 10px ;
+    color: rgb(248, 228, 42);
+    font-weight: 900px;
+    text-align-last: center;
+    font-size: 85px;
+}
+footer img{
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+}
+
+/* }
+.head img{
+    margin: 10px 20px;
+    text-indent: 20px;
+} */
